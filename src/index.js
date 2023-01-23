@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 var element = React.createElement('h1', { className: 'greeting' }, 'Hello, world!');
-//ReactDOM.render(element, document.getElementById('root'));
+//ReactDOM.render(element, document.getElementById('root')); //will not work if uncommented
 
 reportWebVitals();
 
